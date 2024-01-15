@@ -1,0 +1,266 @@
+{% extends "layout.html" %}
+{% load static %}
+
+
+{% block content %}
+
+    <header>
+        <div class="container">
+            <div id="slider3" class="carousel slide my-5">
+                <ol class="carousel-indicators">
+                    <li class="active" data-target="#slider3" data-slide-to="0"></li>
+                    <li data-target="#slider3" data-slide-to="1"></li>
+                    <li data-target="#slider3" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" >
+                        <img src="{% static 'bg-sea.jpg' %}" alt="" class="d-block w-100" width="940" height="320">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>"Yemine gerek görmeyecek kadar sözlerine sadık ol."</h3>
+                            <h5>Dale Carnegie</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{% static 'bg-night.jpg' %}" alt="" class="d-block w-100" width="940" height="320">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>"Asla sana sıradan gibi davranan birini sevme."</h3>
+                            <h5>Oscar Wilde</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="{% static 'bg-flower.jpg' %}" alt="" class="d-block w-100" width="940" height="320">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3 class="fw-bold">"Hayatta parayla alınamayacak en değerli şey; senin derdini kendi derdi gibi gören dosttur."</h3>
+                            <h5>La Edri</h5>
+                        </div>
+                    </div>
+                </div>
+                <a href="#slider3" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#slider3" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+        </div>
+                <br>
+                <section class=" text-light p-4 text-center">
+                    <div class="container">    
+                        <div class="d-sm-flex">
+                            <div class="col-md-6 px-0">
+                                <h1 class="display-4 font-italic text-warning">
+                                    Kitap Kurdu
+                                </h1>
+                                <p class="lead md-3">
+                                    Buradan istediğiniz kitaplara en kolay şekilde erişim sağlayabilir, kitapların içerisindeki bilgilere ve daha fazlasına erişebilirsiniz. Bu ve daha fazlası...
+                                </p>
+                                <p class="lead mb-0">
+                                    <a href="#" class="text-white">Countinue Reading...</a>
+                                </p>
+                            </div> 
+                            <div class="col-md-5 mt-5 ml-5">
+                                <div class="card-body">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search for...">
+                                        <span class="input-group-btn">
+                                            <button class="btn btn-secondary" type="button"> Search! </button>
+                                        </span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+    </header>
+
+
+    <main class="mt-4 mb-4">
+        <div class="row text-center ml-4 mr-4">
+            <div class="container">
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="card-img" src="{% static 'img/1.jpg' %}" alt="">
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="card-body">
+                                        <div class="card-title">1984</div>
+                                        <p class="card-text">
+                                            <small class="text-muted">George Orwell</small>
+                                        </p>
+                                        <p class="card-text fw-semibold">
+                                            Kitap Okyanusya adlı toplumun yaşadıkları olayları anlatmaktadır. 1984 kitabının ana fikri ise durum ve şartlar ne olursa olsun insanlar hangi rejimler ile yönetiliyor olursa olsun düşünceler baskılanamaz ve herkes istediği şeyi sorgular ve düşünür
+                                        </p>
+                                        <a href="#" class="text-dark fw-light">Countinue Reading...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="card-img" src="{% static 'img/2.jpg' %}" alt="">
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="card-body">
+                                        <div class="card-title">Otomatik Portakal</div>
+                                        <p class="card-text">
+                                            <small class="text-muted">Anthony Burgess</small>
+                                        </p>
+                                        <p class="card-text fw-semibold">
+                                            Alex; Dim, Pete ve Georgie adlı dört gençten oluşan bir sokak çetesinin lideridir. Gündüzleri gayet normal bir genç gibi okuluna gitmekte, akşamları ise çetesiyle beraber yaşlılara, kadınlara saldırarak paralarını çalmakta, kadınlara zorla sahip olmaktadırlar.
+                                        </p>
+                                        <a href="#" class="text-dark fw-light">Countinue Reading...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="card-img" src="{% static 'img/2.jpg' %}" alt="">
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="card-body">
+                                        <div class="card-title">Otomatik Portakal</div>
+                                        <p class="card-text">
+                                            <small class="text-muted">Anthony Burgess</small>
+                                        </p>
+                                        <p class="card-text fw-semibold">
+                                            Alex; Dim, Pete ve Georgie adlı dört gençten oluşan bir sokak çetesinin lideridir. Gündüzleri gayet normal bir genç gibi okuluna gitmekte, akşamları ise çetesiyle beraber yaşlılara, kadınlara saldırarak paralarını çalmakta, kadınlara zorla sahip olmaktadırlar.
+                                        </p>
+                                        <a href="#" class="text-dark fw-light">Countinue Reading...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container mt-5">
+                        <div class="row">
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="card-img" src="{% static 'img/7.jpg' %}" alt="">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="card-body">
+                                            <div class="card-title">Yeraltından Notlar</div>
+                                            <p class="card-text">
+                                                <small class="text-muted">Fyodor Dostoyevski</small>
+                                            </p>
+                                            <p class="card-text fw-semibold">
+                                                Yeraltından Notlar, gerçek dünyadan kendini soyutlamış veya buna zorunlu kalmış bir kişinin iç çatışmalarını ve hezeyanlarını ana eksen olarak belirler. Yeraltı Adamı'nın monoloğu ve ünlü "Ben hasta bir adamım." ifadesi ile romana giren Dostoyevski bu romanıyla sonraki döneminin büyük eserlerine bir giriş yapar.
+                                            </p>
+                                            <a href="#" class="text-dark fw-light">Countinue Reading...</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="card-img" src="{% static 'img/4.jpg' %}" alt="">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="card-body">
+                                            <div class="card-title">Ölümsüz Aile</div>
+                                            <p class="card-text">
+                                                <small class="text-muted">Natalie Babbitt</small>
+                                            </p>
+                                            <p class="card-text fw-semibold">
+                                                Ölümsüz Aile, yani Tuck'lar, bu güzel kızın, pınarın suyundan içmesine engel olmak; akıp giden dünyanın, sürekli değişen bir doğanın parçası olmanın ne kadar güzel bir şey olduğunu kanıtlamak zorundadır. Ölümsüz Aile milyonlarca çocuğa ulaştı; birçok dile çevrildi, hem Amerika'da hem de Avrupa'da okullarda okutuldu.
+                                            </p>
+                                            <a href="#" class="text-dark fw-light">Countinue Reading...</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="card-img" src="{% static 'img/2.jpg' %}" alt="">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <div class="card-body">
+                                            <div class="card-title">Otomatik Portakal</div>
+                                            <p class="card-text">
+                                                <small class="text-muted">Anthony Burgess</small>
+                                            </p>
+                                            <p class="card-text fw-semibold">
+                                                Alex; Dim, Pete ve Georgie adlı dört gençten oluşan bir sokak çetesinin lideridir. Gündüzleri gayet normal bir genç gibi okuluna gitmekte, akşamları ise çetesiyle beraber yaşlılara, kadınlara saldırarak paralarını çalmakta, kadınlara zorla sahip olmaktadırlar.
+                                            </p>
+                                            <a href="#" class="text-dark fw-light">Countinue Reading...</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="container mt-5">
+                    <div class="row">
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="card-img" src="{% static 'img/5.jpg' %}" alt="">
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="card-body">
+                                        <div class="card-title">Romeo ve Juliet</div>
+                                        <p class="card-text">
+                                            <small class="text-muted">William ShakeSpeare</small>
+                                        </p>
+                                        <p class="card-text fw-semibold">
+                                            Verona'da kan davalı iki aile Montague ve Capuletlerin birbirlerine aşık olan çocukları Romeo ve Juliet'i büyük bir trajedi beklemektedir. Kızları Juliet'i iki yıl sonra evlendirmek üzere Parisle tanıştıran Capulet ailesinin bu tanınma için düzenledikleri baloya davetsiz giren Romeo, Juliet'e ilk görüşte aşık olur.
+                                        </p>
+                                        <a href="#" class="text-dark fw-light">Countinue Reading...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="card-img" src="{% static 'img/6.jpg' %}" alt="">
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="card-body">
+                                        <div class="card-title">Satranç</div>
+                                        <p class="card-text">
+                                            <small class="text-muted">Stefan Zweig</small>
+                                        </p>
+                                        <p class="card-text fw-semibold">
+                                            Arjantin'de düzenlenecek satranç turnuvasına katılacak olan satranç şampiyonu Mirko Czentovic ile Dr. B'nin karşılaşılması ve Dr. B'nin Nazi zulmünden yaşadıkları anlatır.
+                                        </p>
+                                        <a href="#" class="text-dark fw-light">Countinue Reading...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <img class="card-img" src="{% static 'img/2.jpg' %}" alt="">
+                                </div>
+                                <div class="col-md-9">
+                                    <div class="card-body">
+                                        <div class="card-title">Otomatik Portakal</div>
+                                        <p class="card-text">
+                                            <small class="text-muted">Anthony Burgess</small>
+                                        </p>
+                                        <p class="card-text fw-semibold">
+                                            Alex; Dim, Pete ve Georgie adlı dört gençten oluşan bir sokak çetesinin lideridir. Gündüzleri gayet normal bir genç gibi okuluna gitmekte, akşamları ise çetesiyle beraber yaşlılara, kadınlara saldırarak paralarını çalmakta, kadınlara zorla sahip olmaktadırlar.
+                                        </p>
+                                        <a href="#" class="text-dark fw-light">Countinue Reading...</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+{% endblock %}
